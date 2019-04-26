@@ -34,7 +34,7 @@ outputs:
   cell_type_assignments:
     type: File
     outputBinding:
-      glob: celltypes.rdata
+      glob: /results/celltypes.rdata
     doc: "RDS object that has clone to cell assignments."
 
 baseCommand: ["Rscript", "/codebase/run_cellassign.R"]
