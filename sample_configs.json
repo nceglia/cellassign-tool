@@ -1,14 +1,14 @@
 {
   "singlecellexperiment": {
         "class": "File",
-        "path": "/data/example_sce.rdata"
+        "path": "/home/nceglia/codebase/cellassign-tool/data/example_sce.rdata"
     },
     "gene_marker_matrix": {
         "class": "File",
-        "path": "/data/example_rho.rdata"
+        "path": "/home/nceglia/codebase/cellassign-tool/data/example_rho.rdata"
     },
     "cell_type_assignments": {
         "class": "File",
-        "path": "/results/celltypes.rdata"
+        "path": "/tmp/celltypes.rdata"
     }
 }
