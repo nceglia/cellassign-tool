@@ -33,7 +33,9 @@ outputs:
     outputBinding:
       glob: celltypes.rdata
     doc: "RDS object that has clone to cell assignments."
+
 baseCommand: ["Rscript", "/codebase/run_cellassign.R"]
 
-1.0.20190228155703
-1.0.20181217162649
+$namespaces:
+  dct: http://purl.org/dc/terms/
+  foaf: http://xmlns.com/foaf/0.1/
