@@ -24,17 +24,17 @@ inputs:
     type: File
     doc: "SingleCellExperiment object"
     inputBinding:
-      position: 2
+      position: 1
   gene_marker_matrix:
     type: File
     doc: "RDS gene-by-cell-type binary matrix"
     inputBinding:
-      position: 3
+      position: 2
 outputs:
   cell_type_assignments:
     type: File
     outputBinding:
-      glob: /results/celltypes.rdata
+      glob: "celltypes.rdata"
     doc: "RDS object that has clone to cell assignments."
 
 baseCommand: ["Rscript", "/codebase/run_cellassign.R"]
