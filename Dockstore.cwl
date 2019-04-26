@@ -23,7 +23,6 @@ inputs:
   singlecellexperiment:
     type: File
     doc: "SingleCellExperiment object"
-    format: "https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html"
     inputBinding:
       position: 1
   gene_marker_matrix:
