@@ -4,12 +4,10 @@ library(scran)
 library(SingleCellExperiment)
 
 args = commandArgs(trailingOnly=TRUE)
+print(args)
+sce <- readRDS(args[1])
 
-rdata <- paste0("/data/",args[1])
-sce <- readRDS(rdata)
-
-rdata <- paste0("/data/",args[2])
-rho <- readRDS(rdata)
+rho <- readRDS(args[2])
 
 rho <- as.matrix(rho)
 counts(sce) <- data.matrix(counts(sce))
@@ -17,4 +15,4 @@ counts(sce) <- data.matrix(counts(sce))
 s <- sizeFactors(sce)
 
 fit_cellassign <- cellassign(exprs_obj = sce, marker_gene_info = rho, s = s, shrinkage=TRUE)
-saveRDS(fit_cellassign, file = '/results/celltypes.rdata')
+saveRDS(fit_cellassign, file = 'celltypes.rdata')
