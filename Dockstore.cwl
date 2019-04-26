@@ -3,7 +3,7 @@
 class: CommandLineTool
 id: "cellassign-tool"
 label: "cellassign-tool"
-cwlVersion: v1.0.2
+
 doc: |
     ![build_status](https://quay.io/repository/nceglia/cellassign-tool/status)
     A Docker container for the clonealign. See the [cellassign](https://github.com/Irrationone/cellassign) website for more information.
@@ -15,6 +15,10 @@ dct:creator:
 requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/collaboratory/nceglia/cellassign-tool:latest"
+
+
+cwlVersion: v1.0
+
 inputs:
   singlecellexperiment:
     type: File
