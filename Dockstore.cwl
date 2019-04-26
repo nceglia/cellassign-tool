@@ -24,12 +24,12 @@ inputs:
     type: File
     doc: "SingleCellExperiment object"
     inputBinding:
-      position: 1
+      position: 2
   gene_marker_matrix:
     type: File
     doc: "RDS gene-by-cell-type binary matrix"
     inputBinding:
-      position: 2
+      position: 3
 outputs:
   cell_type_assignments:
     type: File
