@@ -6,7 +6,7 @@ label: "cellassign-tool"
 
 doc: |
     ![build_status](https://quay.io/repository/nceglia/cellassign-tool/status)
-    A Docker container for the clonealign. See the [cellassign](https://github.com/Irrationone/cellassign) website for more information.
+    A Docker container for the cellassign. See the [cellassign](https://github.com/Irrationone/cellassign) website for more information.
 
 dct:creator:
   "@id": "https://orcid.org/0000-0001-9387-103X"
