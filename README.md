@@ -1,5 +1,5 @@
 # cellassign-tool
-https://quay.io/repository/nceglia/cellassign-tool/status
+[![Docker Repository on Quay](https://quay.io/repository/nceglia/cellassign-tool/status "Docker Repository on Quay")](https://quay.io/repository/nceglia/cellassign-tool)
 Container for running cellassign. Designed to run with Dockstore or CWL.
 
 Github: [Irrationone/cellassign](https://github.com/Irrationone/cellassign)  <br/> 
